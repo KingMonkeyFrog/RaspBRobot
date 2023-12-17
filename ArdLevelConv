@@ -1,0 +1,27 @@
+
+/* -- Level Shift Converter Code to Arduino
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available()) {
+    String data = Serial.readStringUntil('\n');
+    Serial.println(data);
+  }
+}
+    
+*/
+
+//-----------------------De Rapberry to Arduino-----------------------333333333
+
+
+/* --Codigo para o Arduino que recebe dados da Cloud
+
+
+
+
+   */
+
+//-----------------------De Arduino to Raspberry-----------------------444444444
